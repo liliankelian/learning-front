@@ -1,0 +1,60 @@
+body{
+    background: conic-gradient(black,slateblue,#333,#555,slateblue,black);
+    color: white;
+    height:100vh;
+    font-family:sans-serif;
+  }
+  
+  .cartao{
+    border: 3px solid;
+    border-radius: 16px;
+    width: 600px;
+    text-align: center;
+    padding: 32px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(50px);
+  }
+  
+  .perfil img{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    box-shadow: 0 0 5px;
+    margin-bottom:10px;
+  }
+  
+  .perfil h1{
+    font-size: 32px;
+  }
+  
+  .redes{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 32px;
+  }
+  
+  .redes a{
+    color:white;
+    text-decoration:none;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 8px;
+    background:linear-gradient(#0004,#fff4);
+  }
+  
+  .minibio{
+    border: 1px solid;
+    text-decoration:none;
+    padding: 8px;
+    border-radius: 8px;
+    background:linear-gradient(#0004,#fff4);
+  }
+  
+  .minibio span{
+   font-size: 20px; 
+  }
